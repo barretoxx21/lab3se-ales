@@ -244,12 +244,12 @@ Como se puede observar cuando se aplica el ICA en la mezcla su amplitud dismunuy
 
 El  SNR después de ICA: 10.80 dB
 
-![](https://github.com/barretoxx21/lab3se-ales/blob/main/808.jpg)
+![](https://github.com/barretoxx21/lab3se-ales/blob/main/para%203.jpg)
 
 El análisis espectral después de aplicar ICA muestra una distribución de frecuencias similar a la señal mezclada original, con la mayor parte de la energía concentrada en las bajas frecuencias (por debajo de 1000 Hz). Sin embargo, la magnitud general parece haberse reescalado, lo que puede ser una consecuencia del proceso de separación. Como el SNR sigue siendo 10.80 dB, el ICA no logró mejorar la relación señal a ruido.
 
 # APLICAR BEAMFORMING Y SNR DE LA MEZCLA
-![](https://github.com/barretoxx21/lab3se-ales/blob/main/1232345.jpg)
+![](https://github.com/barretoxx21/lab3se-ales/blob/main/808.jpg)
 
 Como se puede observar en este grafica el Beamforming mantiene una amplitud muy parecida a la del ica en la mezcla esto quiere decir que su SNR no cambio demasiado , la razon de esto es porque Beamforming y ICA (Análisis de Componentes Independientes) comparten similitudes en la separación de señales, pero funcionan con principios diferentes.
 
