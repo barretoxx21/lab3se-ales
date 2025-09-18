@@ -207,6 +207,7 @@ Se puede decir que las siguientes operaciones lograron hacer lo siguiente:
 
 En esta primera imagen se puede observar el audio 1 con el ruido 1 y con el snr calculado 
 El SNR calculado del Audio 1 con su Ruido: 16.35 dB, indica que la señal de audio es aproximadamente 43 veces más fuerte que el ruido.
+
 ![](https://github.com/barretoxx21/lab3se-ales/blob/main/analisis%201.jpg)
 
 El análisis espectral de la Señal 1 muestra la distribución de frecuencias en la señal de audio, evidenciando que la mayor parte de la energía se concentra en las bajas frecuencias, aproximadamente entre 0 y 1000 Hz, con picos significativos. A partir de esta región, la magnitud disminuye progresivamente, aunque persisten componentes de menor intensidad en frecuencias más altas, lo que podría ser indicativo de ruido. Esto sugiere que la señal tiene un fuerte contenido en bajas frecuencias, característico de la voz humana 
