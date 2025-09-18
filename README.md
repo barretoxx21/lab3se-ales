@@ -238,7 +238,7 @@ El análisis espectral de la mezcla, donde la Señal 1 ha sido aumentada , muest
 
 # APLICAR ICA Y SNR EN LAS MEZLCA 
 
-![](https://github.com/barretoxx21/lab3se-ales/blob/main/para%203.jpg)
+![](https://github.com/barretoxx21/lab3se-ales/blob/main/123eee.jpg   )
 
 Como se puede observar cuando se aplica el ICA en la mezcla su amplitud dismunuye ya que el  ICA encuentra componentes estadísticamente independientes en una mezcla de señales, y durante este proceso, los componentes extraídos pueden ser normalizados,reescalados o tambien  en otros casos se  puede atenuar componentes no deseados (como ruido o interferencias), lo que también puede dar la percepción de menor amplitud en la señal separada.con esta explicacion se puede inferir porque al aplicar el ica en la mezlca cambia su amplitud.
 
@@ -255,7 +255,7 @@ Como se puede observar en este grafica el Beamforming mantiene una amplitud muy 
 
 SNR después de Beamforming: 10.81 dB
 
-[![imagen-2025-03-07-171433328.png](https://i.postimg.cc/1Xxtq9S3/imagen-2025-03-07-171433328.png)](https://postimg.cc/LYT2dFhc)
+![](https://github.com/barretoxx21/lab3se-ales/blob/main/1q1q1.jpg)
 
 El análisis espectral después de aplicar Beamforming  muestra una distribución de frecuencias similar a la señal mezclada original y la des´pues de aplicar el ICA, con la mayor parte de la energía concentrada en las bajas frecuencias (por debajo de 1000 Hz). El contenido de alta frecuencia sigue presente, pero en menor magnitud, lo que indica que el Beamforming no ha filtrado significativamente el ruido.
 
