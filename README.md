@@ -117,7 +117,7 @@ Como primera instancia haremos la realizacion de la grabacion de los dos audios 
 
 - Los micofonos se colocan a una distancia de 1 metro entre si de forma horizontal como se muestra en el siguiente diagrama
   
-   ![]([https://github.com/barretoxx21/lab3se-ales](https://github.com/barretoxx21/lab3se-ales/blob/main/Imagen%20de%20WhatsApp%202025-09-18%20a%20las%2008.29.15_7a7e3bd6.jpg))
+   ![](https://github.com/barretoxx21/lab3se-ales/blob/main/audio%20.jpg)
   
 
   Donde ante esto iniciaremos la parte de programacion donde grabaremos 2 audios en 2 diferentes celulares y 2 ruidos los cuales se encontraran en .wav y los iniciaremos a llamar donde utilizaremos est fragmento
