@@ -206,7 +206,7 @@ Se puede decir que las siguientes operaciones lograron hacer lo siguiente:
 ![](https://github.com/barretoxx21/lab3se-ales/blob/main/se%C3%B1al1.jpg)
 
 En esta primera imagen se puede observar el audio 1 con el ruido 1 y con el snr calculado 
-El SNR calculado del Audio 1 con su Ruido: 16.35 dB, indica que la señal de audio es aproximadamente 43 veces más fuerte que el ruido.
+El SNR calculado del Audio 1 con su Ruido: 19.01 dB
 
 ![](https://github.com/barretoxx21/lab3se-ales/blob/main/analisis%201.jpg)
 
@@ -215,7 +215,7 @@ El análisis espectral de la Señal 1 muestra la distribución de frecuencias en
 ![](https://github.com/barretoxx21/lab3se-ales/blob/main/se%C3%B1al%202.jpg))
 
 En esta segunda imagen se puede observar el audio 2 con el ruido 2 y con el snr calculado 
-El SNR calculado del Audio 2 con su Ruido: 39.70 dB, indica que la señal es aproximadamente 9315 veces más fuerte que el ruido, lo que representa una calidad de audio muy buena.
+El SNR calculado del Audio 2 con su Ruido: 31,06 dB
 ![](https://github.com/barretoxx21/lab3se-ales/blob/main/analisis%202.jpg)
 
 El análisis espectral de la Señal 2 muestra que la mayor parte de la energía está concentrada en las bajas frecuencias, principalmente por debajo de los 1000 Hz, con picos bien definidos que indican componentes dominantes en esa región. A medida que la frecuencia aumenta, la magnitud disminuye, aunque aún se pueden observar pequeñas variaciones en el espectro que pueden corresponder a ruido o armónicos. Comparado con la Señal 1, 
@@ -242,7 +242,7 @@ El análisis espectral de la mezcla, donde la Señal 1 ha sido aumentada , muest
 
 Como se puede observar cuando se aplica el ICA en la mezcla su amplitud dismunuye ya que el  ICA encuentra componentes estadísticamente independientes en una mezcla de señales, y durante este proceso, los componentes extraídos pueden ser normalizados,reescalados o tambien  en otros casos se  puede atenuar componentes no deseados (como ruido o interferencias), lo que también puede dar la percepción de menor amplitud en la señal separada.con esta explicacion se puede inferir porque al aplicar el ica en la mezlca cambia su amplitud.
 
-El  SNR después de ICA: 10.80 dB
+El  SNR después de ICA: 17.06 dB
 
 ![](https://github.com/barretoxx21/lab3se-ales/blob/main/para%203.jpg)
 
@@ -253,7 +253,7 @@ El análisis espectral después de aplicar ICA muestra una distribución de frec
 
 Como se puede observar en este grafica el Beamforming mantiene una amplitud muy parecida a la del ica en la mezcla esto quiere decir que su SNR no cambio demasiado , la razon de esto es porque Beamforming y ICA (Análisis de Componentes Independientes) comparten similitudes en la separación de señales, pero funcionan con principios diferentes.
 
-SNR después de Beamforming: 10.81 dB
+SNR después de Beamforming: 14.21 dB
 
 ![](https://github.com/barretoxx21/lab3se-ales/blob/main/1q1q1.jpg)
 
