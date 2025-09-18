@@ -246,7 +246,7 @@ El  SNR después de ICA: 17.06 dB
 
 ![](https://github.com/barretoxx21/lab3se-ales/blob/main/para%203.jpg)
 
-El análisis espectral después de aplicar ICA muestra una distribución de frecuencias similar a la señal mezclada original, con la mayor parte de la energía concentrada en las bajas frecuencias (por debajo de 1000 Hz). Sin embargo, la magnitud general parece haberse reescalado, lo que puede ser una consecuencia del proceso de separación. Como el SNR sigue siendo 10.80 dB, el ICA no logró mejorar la relación señal a ruido.
+El análisis espectral después de aplicar ICA muestra una distribución de frecuencias similar a la señal mezclada original, con la mayor parte de la energía concentrada en las bajas frecuencias (por debajo de 1000 Hz). Sin embargo, la magnitud general parece haberse reescalado, lo que puede ser una consecuencia del proceso de separación. Como el SNR sigue siendo 17.06 dB, el ICA no logró mejorar la relación señal a ruido.
 
 # APLICAR BEAMFORMING Y SNR DE LA MEZCLA
 ![](https://github.com/barretoxx21/lab3se-ales/blob/main/808.jpg)
