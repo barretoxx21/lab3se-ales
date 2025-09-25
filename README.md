@@ -203,28 +203,28 @@ Se puede decir que las siguientes operaciones lograron hacer lo siguiente:
 
 # auidios y ruidos 
 
-![](https://github.com/barretoxx21/lab3se-ales/blob/main/se%C3%B1al1.jpg)
+![](https://github.com/barretoxx21/lab3se-ales/blob/main/se%C3%B1al%201%20dj.jpg)
 
 En esta primera imagen se puede observar el audio 1 con el ruido 1 y con el snr calculado 
 El SNR calculado del Audio 1 con su Ruido: 19.01 dB
 
-![](https://github.com/barretoxx21/lab3se-ales/blob/main/analisis%201.jpg)
+![](https://github.com/barretoxx21/lab3se-ales/blob/main/anbal%202.jpg)
 
 El análisis espectral de la Señal 1 muestra la distribución de frecuencias en la señal de audio, evidenciando que la mayor parte de la energía se concentra en las bajas frecuencias, aproximadamente entre 0 y 1000 Hz, con picos significativos. A partir de esta región, la magnitud disminuye progresivamente, aunque persisten componentes de menor intensidad en frecuencias más altas, lo que podría ser indicativo de ruido. Esto sugiere que la señal tiene un fuerte contenido en bajas frecuencias, característico de la voz humana 
 
-![](https://github.com/barretoxx21/lab3se-ales/blob/main/se%C3%B1al%202.jpg))
+![](https://github.com/barretoxx21/lab3se-ales/blob/main/se%C3%B1al%202%20dj.jpg)
 
 En esta segunda imagen se puede observar el audio 2 con el ruido 2 y con el snr calculado 
 El SNR calculado del Audio 2 con su Ruido: 31,06 dB
-![](https://github.com/barretoxx21/lab3se-ales/blob/main/analisis%202.jpg)
+![](https://github.com/barretoxx21/lab3se-ales/blob/main/mezcla%20dj.jpg)
 
 El análisis espectral de la Señal 2 muestra que la mayor parte de la energía está concentrada en las bajas frecuencias, principalmente por debajo de los 1000 Hz, con picos bien definidos que indican componentes dominantes en esa región. A medida que la frecuencia aumenta, la magnitud disminuye, aunque aún se pueden observar pequeñas variaciones en el espectro que pueden corresponder a ruido o armónicos. Comparado con la Señal 1, 
 
 # MEZCLA DE LOS AUDIOS Y RUIDOS 
-![](https://github.com/barretoxx21/lab3se-ales/blob/main/blqblq.jpg)
+![](https://github.com/barretoxx21/lab3se-ales/blob/main/se%C3%B1al%203%20dj.jpg)
 
 En esta grafica se puede observar las combinacion de los auidios con sus respecticos ruidos mostrandonos una señal mas grande y con mas ruido.
-![](https://github.com/barretoxx21/lab3se-ales/blob/main/Imagen%20de%20WhatsApp%202025-09-18%20a%20las%2008.21.15_14f93b1d.jpg)
+![](https://github.com/barretoxx21/lab3se-ales/blob/main/ica%20dj.jpg)
 
 El análisis espectral de la mezcla de la combinación de la Señal 1 y la Señal 2, muestra una distribución de frecuencias similar a la de ambas señales individuales, con una concentración de energía predominante en las bajas frecuencias, especialmente por debajo de los 1000 Hz. Sin embargo, la magnitud en esta región parece ser una combinación de ambas señales, con picos más definidos que reflejan la superposición de sus componentes espectrales. En frecuencias más altas, la mezcla mantiene ciertas características de ruido, aunque con menor intensidad en comparación con la Señal 1, lo que sugiere que la mayor calidad fue la  de la Señal 2 .
 
@@ -232,30 +232,30 @@ El análisis espectral de la mezcla de la combinación de la Señal 1 y la Seña
 ![](https://github.com/barretoxx21/lab3se-ales/blob/main/audio%20y%20video%20.jpg)
 la señal que se destaca es la primera de la mezcla. Es decir, se multiplica por 1.5 la amplitud de la primera señal de audio en la mezcla para que tenga mayor presencia sobre la otra,
 como se puede observar aumenta su amplitud entre la mezcla normal y la mezcla que se destaca.
-![](https://github.com/barretoxx21/lab3se-ales/blob/main/se%C3%B1al%2054.jpg)
+![](https://github.com/barretoxx21/lab3se-ales/blob/main/mezcla%20azul.jpg)
 
 El análisis espectral de la mezcla, donde la Señal 1 ha sido aumentada , muestra un aumento en la magnitud de las frecuencias bajas, lo que indica que los componentes dominantes de la Señal 1 tienen mayor presencia en la combinación final. En comparación con el espectro de la mezcla anterior, se observa un refuerzo en los picos de energía por debajo de los 1000 Hz, lo que sugiere que la voz de la Señal 1 han sido resaltados o aumentado para que se noten mucho mejor en esta mezcla.
 
 # APLICAR ICA Y SNR EN LAS MEZLCA 
 
-![](https://github.com/barretoxx21/lab3se-ales/blob/main/123eee.jpg   )
+![](https://github.com/barretoxx21/lab3se-ales/blob/main/vox%20dj.jpg)
 
 Como se puede observar cuando se aplica el ICA en la mezcla su amplitud dismunuye ya que el  ICA encuentra componentes estadísticamente independientes en una mezcla de señales, y durante este proceso, los componentes extraídos pueden ser normalizados,reescalados o tambien  en otros casos se  puede atenuar componentes no deseados (como ruido o interferencias), lo que también puede dar la percepción de menor amplitud en la señal separada.con esta explicacion se puede inferir porque al aplicar el ica en la mezlca cambia su amplitud.
 
 El  SNR después de ICA: 17.06 dB
 
-![](https://github.com/barretoxx21/lab3se-ales/blob/main/para%203.jpg)
+![](https://github.com/barretoxx21/lab3se-ales/blob/main/beafomin%20rojo.jpg)
 
 El análisis espectral después de aplicar ICA muestra una distribución de frecuencias similar a la señal mezclada original, con la mayor parte de la energía concentrada en las bajas frecuencias (por debajo de 1000 Hz). Sin embargo, la magnitud general parece haberse reescalado, lo que puede ser una consecuencia del proceso de separación. Como el SNR sigue siendo 17.06 dB, el ICA no logró mejorar la relación señal a ruido.
 
 # APLICAR BEAMFORMING Y SNR DE LA MEZCLA
-![](https://github.com/barretoxx21/lab3se-ales/blob/main/808.jpg)
+![](https://github.com/barretoxx21/lab3se-ales/blob/main/ica%20azu.jpg)
 
 Como se puede observar en este grafica el Beamforming mantiene una amplitud muy parecida a la del ica en la mezcla esto quiere decir que su SNR no cambio demasiado , la razon de esto es porque Beamforming y ICA (Análisis de Componentes Independientes) comparten similitudes en la separación de señales, pero funcionan con principios diferentes.
 
 SNR después de Beamforming: 14.21 dB
 
-![](https://github.com/barretoxx21/lab3se-ales/blob/main/1q1q1.jpg)
+![](https://github.com/barretoxx21/lab3se-ales/blob/main/befoming.jpg)
 
 El análisis espectral después de aplicar Beamforming  muestra una distribución de frecuencias similar a la señal mezclada original y la des´pues de aplicar el ICA, con la mayor parte de la energía concentrada en las bajas frecuencias (por debajo de 1000 Hz). El contenido de alta frecuencia sigue presente, pero en menor magnitud, lo que indica que el Beamforming no ha filtrado significativamente el ruido.
 
